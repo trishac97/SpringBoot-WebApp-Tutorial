@@ -26,7 +26,7 @@ public class HomeController {
 		return "home";
 	}*/
 	
-	public ModelAndView home(@RequestParam("myName")String name) {
+	/*public ModelAndView home(@RequestParam("myName")String name) {
 		
 		ModelAndView mv = new ModelAndView();
 		
@@ -35,6 +35,15 @@ public class HomeController {
 		
 		return mv;
 		
+	}*/
+	
+	public ModelAndView home(TelephoneDiary tobj) {
+		ModelAndView mv = new ModelAndView();
+		
+		mv.addObject("tobj",tobj);
+		mv.setViewName("home");
+		
+		return mv;
+		
 	}
-
 }

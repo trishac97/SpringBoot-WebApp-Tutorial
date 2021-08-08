@@ -7,7 +7,7 @@
 <title>Home Page</title>
 </head>
 <body>
-Welcome home, ${name}
+Welcome home, ${tobj.contactName}. Your number is ${tobj.number}.
 
 </body>
 </html>
