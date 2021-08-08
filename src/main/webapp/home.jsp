@@ -7,6 +7,7 @@
 <title>Home Page</title>
 </head>
 <body>
-I am inside home page body
+Welcome home, ${name}
+
 </body>
 </html>
